@@ -1,0 +1,346 @@
+
+/*Task 1*/
+.box{
+    height: 700px;
+    width: 800px;
+    margin: auto;
+    border: 1px solid red;
+    position: relative;
+}
+
+.box div{
+    color: black;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.box div:first-child{
+    position: absolute;
+    top: 75px;
+}
+
+/*Task 2*/
+
+.boxs{
+    height: 700px;
+    width: 800px;
+    margin: auto;
+    border: 1px solid red;
+    position: relative;
+    margin-top: 50px;
+  
+}
+
+.boxs div{
+    color: black;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.boxs div:first-child{
+    position: relative;
+    margin-left: -50px;
+}
+
+
+
+/*Task 3*/
+
+.boxk{
+    position: relative;
+}
+
+.boxk div:nth-child(1){
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+
+.boxk div:nth-child(2){
+    width: 250px;
+    height: 250px;
+    margin-left: 200px;
+    margin-top: -80px;
+}
+
+
+.boxk div:nth-child(3){
+    width: 860px;
+    height: 150px;
+    margin-top: -50px;
+    margin-left: 50px;
+
+}
+
+.boxk div:nth-child(4){
+    width: 150px;
+    height: 360px;
+    margin-left: 850px;
+    margin-top: -450px;
+
+
+}
+
+/*Task 4*/
+
+.pos{
+    width: 900px;
+    height: 400px;
+    border: 5px solid rgb(75, 74, 74);
+    font-size: 30px;
+    margin-top: 200px;
+ 
+}
+
+.pp{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(121, 7, 228);
+    border-radius: 10px;
+    color: white;
+    margin-left: 36.5%;
+    margin-top: -195.8px;
+    position: absolute;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+
+/*Task 5*/
+
+
+
+.lis:nth-child(odd) {
+    background-color: #0dc20d;  
+    font-size: 35px;
+    margin-right: -8px;  
+    color: white; 
+}
+
+.lis:nth-child(even) {
+    background-color: blue;
+    font-size: 35px;  
+    margin-right: -8px;
+    color: white;  
+}
+
+/*Task 5*/
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    margin: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 500px;
+}
+
+input[type="email"]:focus{
+    background-color: bisque;
+}
+input[type="text"]:focus{
+    background-color: bisque;
+}
+
+textarea{
+    width: 700px;
+    height: 60px;
+}
+
+
+input[type="submit"]  {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+}
+
+/*Task 6*/
+
+.divvv{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+}
+
+.divvv div:nth-child(1){
+   background-color: blue;
+}
+
+
+.divvv div:nth-child(2){
+    background-color: rgb(43, 255, 0);
+    width: 30%;
+    height: 700px;
+    margin-top: 15px;
+ }
+ 
+
+ .divvv div:nth-child(3){
+    background-color: rgb(43, 255, 0);
+    width: 65%;
+    height: 700px;
+    margin-top: 15px;
+    margin-left: 650px;
+    margin-top: -700px;
+ }
+
+ .divvv div:nth-child(4){
+    background-color: rgb(255, 0, 0);
+    margin-top: 50px;   
+ }
+
+ .divvv div:nth-child(5){
+    background-color: rgb(255, 217, 0);
+    width: 10%;
+    height: 200px;  
+    margin-left: 950px;
+    margin-top: -700px;
+ }
+
+ .divvv div:nth-child(6){
+    background-color: rgb(255, 217, 0);
+    width: 10%;
+    height: 200px;  
+    margin-left: 1250px;
+    margin-top: -200px;
+ }
+
+ .divvv div:nth-child(7){
+    background-color: rgb(255, 217, 0);
+    width: 10%;
+    height: 200px;  
+    margin-left: 1550px;
+    margin-top: -200px;
+ }
+
+ 
+/*Task 7*/
+
+
+.header{
+    background-color: rgb(28, 208, 28);
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 600px;
+}
+
+.sections{
+    display: inline-block;
+    background-color:  rgb(28, 208, 28);
+    margin-top: 10px;
+    margin-left: 10%;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+
+.headers{
+    background-color: rgb(28, 208, 28);
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+/*Task 8*/
+
+.container {
+    display: flex;
+    margin-left: 100px;
+}
+
+.green, .red, .blue, .org , .pem{
+    width: 300px;
+    height: 250px;
+    margin-right: 10px; 
+    
+}
+
+.green{
+    background-color: #0dc20d;
+}
+.red {
+    background-color: rgb(228, 34, 27);
+}
+
+.blue {
+    background-color: rgb(18, 131, 146);
+}
+
+.org{
+    background-color: orange;
+}
+
+.pem{
+    background-color: rgb(128, 63, 189);
+}
+
+/*Task 9*/
+
+.containers {
+    display: flex;
+}
+
+.containers{
+    background-color: rgb(224, 203, 203);
+}
+
+.fixed{
+    position: fixed;
+    background-color: #4CAF50;
+    width: 500px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.sticky {
+    position: sticky;
+    top: 20px;
+    background-color: #af4c4c;
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
